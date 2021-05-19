@@ -1,0 +1,68 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "DbeshopfashionContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "EContext",
+   "OutputPath": "Entities",
+   "ProceduresReturnList": false,
+   "ProjectRootNamespace": "EShopFashion",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Tb1_CartStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb1_Category]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tb1_Products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_Cart]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_MemberRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_Members]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_Roles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_ShippingDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_SlideImage]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-VDKF7S8.dbEShopFashion",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}

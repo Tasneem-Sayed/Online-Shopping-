@@ -1,0 +1,35 @@
+﻿@model List<SingleArrivalsArea>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/views/shared/_LayoutFashionEcommerce.cshtml";
+}
+
+
+
+
+<!-- ****** Top Discount Area Start ****** -->
+<partial name="components/DiscounArea" />
+
+<!-- ****** Top Discount Area End ****** -->
+<!-- ****** Welcome Slides Area Start ****** -->
+<partial name="components/SlidesArea" />
+<!-- ****** Welcome Slides Area End ****** -->
+<!-- ****** Top Catagory Area Start ****** -->
+<partial name="components/CatagoryArea" />
+<!-- ****** Top Catagory Area End ****** -->
+<!-- ****** Quick View Modal Area Start ****** -->
+<partial name="components/ViewModelArea" />
+<!-- ****** Quick View Modal Area End ****** -->
+<!-- ****** New Arrivals Area Start ****** -->
+
+<partial name="components/ArrivalsArea" model="Model" />
+<!-- ****** New Arrivals Area End ****** -->
+<!-- ****** Offer Area Start ****** -->
+<partial name="components/OfferArea" />
+
+<!-- ****** Offer Area End ****** -->
+<!-- ****** Popular Brands Area Start ****** -->
+<partial name="components/PopularBrandsArea" />
+
+<!-- ****** Popular Brands Area End ****** -->

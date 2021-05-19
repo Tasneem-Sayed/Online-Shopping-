@@ -1,0 +1,42 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<SingleArrivalsArea>
+
+    <section class="new_arrivals_area section_padding_100_0 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section_heading text-center">
+                        <h2>New Arrivals</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="karl-projects-menu mb-100">
+            <div class="text-center portfolio-menu">
+                <button class="btn active" data-filter="*">ALL</button>
+                <button class="btn" data-filter=".women">WOMAN</button>
+                <button class="btn" data-filter=".man">MAN</button>
+                <button class="btn" data-filter=".access">ACCESSORIES</button>
+                <button class="btn" data-filter=".shoes">shoes</button>
+                <button class="btn" data-filter=".kids">KIDS</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row karl-new-arrivals">
+
+                <!-- Single gallery Item Start -->
+                @foreach (var item in Model)
+                {
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig" data-wow-delay="0.2s">
+                        <partial name="components/SingleArrivalsArea" model="@item" />
+                    </div>
+                }
+
+            </div>
+            </div>
+    </section>
